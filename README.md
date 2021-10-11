@@ -42,5 +42,5 @@ The properties of the variables used are listed below.
 | Get All Users        | GET    | /api/v1/users/              |  |
 | Get Single Users     | GET    | /api/v1/users/:userId       |  |
 | Update  Single Users | PUT    | /api/v1/users/:userId       | ``` {"name": "Jhon","surname": "Doe","email": "iceberg@gmail.com","gender": "MALE","password":"123456"} ``` |
-| Delete  Single Users | PUT    |/api/v1/users/:userId        |  |
+| Delete  Single Users | DEL    | /api/v1/users/:userId        |  |
 
