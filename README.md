@@ -26,10 +26,10 @@ The properties of the variables used are listed below.
 
 ## Authentication
 
-| ACTION          | METHOD | URL                         | JSON |
+| ACTION          | METHOD | URL                         | EXAMPLE JSON |
 | --------------- | ------ | --------------------------- | ---- |
-| Get Me          | GET    | /api/v1/auth/me             | ``` { "email": "iceberg@gmail.com", "password": "123456" } ``` |
-| Login User      | POST   | /api/v1/auth/login          |
-| Logout User     | POST   | /api/v1/auth/logout         |
-| Update Password | PUT    | /api/v1/auth/updatepassword |
-| Update Details  | PUT    | /api/v1/auth/updatedetails  |
+| Get Me          | GET    | /api/v1/auth/me             ||
+| Login User      | POST   | /api/v1/auth/login          | ``` { "email": "iceberg@gmail.com", "password": "123456" } ``` |
+| Logout User     | POST   | /api/v1/auth/logout         ||
+| Update Password | PUT    | /api/v1/auth/updatepassword | ``` {"currentPassword": "123456","newPassword": "123456"} ``` |
+| Update Details  | PUT    | /api/v1/auth/updatedetails  | ``` {"email": "iceberg@gmail.com","name": "Marry","surname": "Done","gender":"MALE"} ``` |
