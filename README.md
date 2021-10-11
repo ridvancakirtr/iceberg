@@ -27,9 +27,20 @@ The properties of the variables used are listed below.
 ## Authentication
 
 | ACTION          | METHOD | URL                         | EXAMPLE JSON |
-| --------------- | ------ | --------------------------- | ---- |
+| --------------- | ------ | --------------------------- | ----         |
 | Get Me          | GET    | /api/v1/auth/me             ||
 | Login User      | POST   | /api/v1/auth/login          | ``` { "email": "iceberg@gmail.com", "password": "123456" } ``` |
 | Logout User     | POST   | /api/v1/auth/logout         ||
 | Update Password | PUT    | /api/v1/auth/updatepassword | ``` {"currentPassword": "123456","newPassword": "123456"} ``` |
 | Update Details  | PUT    | /api/v1/auth/updatedetails  | ``` {"email": "iceberg@gmail.com","name": "Marry","surname": "Done","gender":"MALE"} ``` |
+
+## Users
+
+| ACTION               | METHOD | URL                         | EXAMPLE JSON |
+| -------------------- | ------ | --------------------------- | ------------ |
+| Create User          | POST   | /api/v1/users/              | ``` {"name": "Jhon","surname": "Doe","email": "iceberg@gmail.com","gender": "MALE","password":"123456"} ``` |
+| Get All Users        | GET    | /api/v1/users/              |  |
+| Get Single Users     | GET    | /api/v1/users/:userId       |  |
+| Update  Single Users | PUT    | /api/v1/users/:userId       | ``` {"name": "Jhon","surname": "Doe","email": "iceberg@gmail.com","gender": "MALE","password":"123456"} ``` |
+| Delete  Single Users | PUT    |/api/v1/users/:userId        |  |
+
