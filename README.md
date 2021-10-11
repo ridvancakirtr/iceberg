@@ -11,6 +11,12 @@ npm install
 npm run dev
 ```
 
+## HEROKU
+
+```sh
+https://icerberg.herokuapp.com/
+```
+
 
 The properties of the variables used are listed below.
 
