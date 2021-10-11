@@ -27,6 +27,7 @@ The properties of the variables used are listed below.
 ## Authentication
 
 | ACTION          | METHOD | URL                         |
+| --------------- | ------ | --------------------------- |
 | Get Me          | GET    | /api/v1/auth/me             |
 | Login User      | POST   | /api/v1/auth/login          |
 | Logout User     | POST   | /api/v1/auth/logout         |
