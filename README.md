@@ -46,10 +46,10 @@ The properties of the variables used are listed below.
 
 ## Appointments
 
-| ACTION                 | METHOD | URL                         | EXAMPLE JSON |
-| --------------------   | ------ | --------------------------- | ------------ |
-| Create Appointments    | POST   | /api/v1/appointments/       | ``` {"customer": {"name": "John","surname": "Doe",            "phone": "5469189000","email":"customer1@gmail.com","gender": "MALE"},"appointment": {"dateTime": "2016-05-18T16:00:00Z","appointmentAddress": "OX495NU",            "realEstateAddress": "CM27PJ"} } ``` |
-| Get All Appointments   | GET    | ---------------------------- |  |
+| ACTION                 | METHOD | URL                          | EXAMPLE JSON |
+| --------------------   | ------ | ---------------------------- | ------------ |
+| Create Appointments    | POST   | /api/v1/appointments/        | ``` {"customer": {"name": "John","surname": "Doe",            "phone": "5469189000","email":"customer1@gmail.com","gender": "MALE"},"appointment": {"dateTime": "2016-05-18T16:00:00Z","appointmentAddress": "OX495NU",            "realEstateAddress": "CM27PJ"} } ``` |
+| Get All Appointments   | GET    | /api/v1/appointments/        |  |
 | Get Single Appointment | GET    | /api/v1/appointments/:appId  | ------------ |
 | Get User Appointments  | GET    | /api/v1/:userId/user         | ------------ |
 | Update Appointment     | PUT    | /api/v1/appointments/:appId  | ``` {"customer": {"name": "RIDVAN","surname": "Kosar",        "phone": "5469189000","email": "ridvancakirtr@gmail.com","gender": "MALE"},    "appointment": {"dateTime": "2016-05-18T16:00:00Z",        "appointmentAddress": "OX495NU",        "realEstateAddress": "CM27PJ"}} ``` |
