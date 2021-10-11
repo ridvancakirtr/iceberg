@@ -4,6 +4,13 @@ API was developed for iceberg digital. Javascript NodeJS,MongoDB backend technol
 
 API organized around REST and GET,PUT,POST,DEL HTTP method used. POST and GET methods must be json.
 
+## Installation
+
+```sh
+npm install
+npm run dev
+```
+
 
 The properties of the variables used are listed below.
 
