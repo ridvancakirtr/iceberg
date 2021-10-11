@@ -1,4 +1,4 @@
-# iceberg
+# ICEBERG DIGITAL
 
 API was developed for iceberg digital. Javascript NodeJS,MongoDB backend technologies were used in the background.
 
