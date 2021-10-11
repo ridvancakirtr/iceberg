@@ -11,18 +11,19 @@ npm install
 npm run dev
 ```
 
-## HEROKU
+## Heroku
 ICEBERG online API environment
 ```sh
 https://icerberg.herokuapp.com/
 ```
 
-## POSTMAN
+## Postman
 Set the environment as the ICEBERG.
 ```sh
 https://www.postman.com/ridvancakirtr/workspace/iceberg-public-api/
 ```
 
+## API Variable
 
 The properties of the variables used are listed below.
 
