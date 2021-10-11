@@ -5,16 +5,22 @@ API was developed for iceberg digital. Javascript NodeJS,MongoDB backend technol
 API organized around REST and GET,PUT,POST,DEL HTTP method used. POST and GET methods must be json.
 
 ## Installation
-
+Local installation 
 ```sh
 npm install
 npm run dev
 ```
 
 ## HEROKU
-
+ICEBERG online API environment
 ```sh
 https://icerberg.herokuapp.com/
+```
+
+## POSTMAN
+Set the environment as the ICEBERG.
+```sh
+https://www.postman.com/ridvancakirtr/workspace/iceberg-public-api/
 ```
 
 
