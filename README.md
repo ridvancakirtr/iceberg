@@ -20,9 +20,6 @@ The properties of the variables used are listed below.
 | `appointmentAddress`    | type: String - maxlength: 6                        |
 | `realEstateAddress`     | type: String - maxlength: 6                        |
 | `distance`              | type: String                                       |
-| `timeLeaveOffice`       | type: Date                                         |
-| `timeArrivalOffice`     | type: Date                                         |
-
 
 ## Authentication
 
