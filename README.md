@@ -26,9 +26,9 @@ The properties of the variables used are listed below.
 
 ## Authentication
 
-| ACTION          | METHOD | URL                         |
-| --------------- | ------ | --------------------------- |
-| Get Me          | GET    | /api/v1/auth/me             |
+| ACTION          | METHOD | URL                         | JSON |
+| --------------- | ------ | --------------------------- | ---- |
+| Get Me          | GET    | /api/v1/auth/me             | ```json { "email": "iceberg@gmail.com", "password": "123456" } ``` |
 | Login User      | POST   | /api/v1/auth/login          |
 | Logout User     | POST   | /api/v1/auth/logout         |
 | Update Password | PUT    | /api/v1/auth/updatepassword |
