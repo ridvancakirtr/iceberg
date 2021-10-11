@@ -2,7 +2,7 @@
 
 API was developed for iceberg digital. Javascript NodeJS,MongoDB backend technologies were used in the background.
 
-API organized around REST and GET,PUT,POST HTTP method used. POST and GET methods must be json.
+API organized around REST and GET,PUT,POST,DEL HTTP method used. POST and GET methods must be json.
 
 
 The properties of the variables used are listed below.
