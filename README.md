@@ -17,8 +17,18 @@ The properties of the variables used are listed below.
 | `gender`      | enum: ['MALE', 'FEMALE']                                     |
 | `password`    | type: String - required: true - minlength: 6 - maxlength: 50 |
 | `dateTime`    | type: Date                                                   |
-| `appointmentAddress`    | type: String - maxlength: 6                                                   |
-| `realEstateAddress`     | type: String - maxlength: 6                                                   |
-| `distance`     | type: String                                                  |
-| `timeLeaveOffice`     | type: Date                                                  |
-| `timeArrivalOffice`     | type: Date                                                  |
+| `appointmentAddress`    | type: String - maxlength: 6                        |
+| `realEstateAddress`     | type: String - maxlength: 6                        |
+| `distance`              | type: String                                       |
+| `timeLeaveOffice`       | type: Date                                         |
+| `timeArrivalOffice`     | type: Date                                         |
+
+
+## Authentication
+
+| ACTION          | METHOD | URL                         |
+| Get Me          | GET    | /api/v1/auth/me             |
+| Login User      | POST   | /api/v1/auth/login          |
+| Logout User     | POST   | /api/v1/auth/logout         |
+| Update Password | PUT    | /api/v1/auth/updatepassword |
+| Update Details  | PUT    | /api/v1/auth/updatedetails  |
