@@ -44,3 +44,14 @@ The properties of the variables used are listed below.
 | Update  Single Users | PUT    | /api/v1/users/:userId       | ``` {"name": "Jhon","surname": "Doe","email": "iceberg@gmail.com","gender": "MALE","password":"123456"} ``` |
 | Delete  Single Users | DEL    | /api/v1/users/:userId        |  |
 
+## Appointments
+
+| ACTION                 | METHOD | URL                         | EXAMPLE JSON |
+| --------------------   | ------ | --------------------------- | ------------ |
+| Create Appointments    | POST   | /api/v1/appointments/       | ``` {"customer": {"name": "John","surname": "Doe",            "phone": "5469189000","email":"customer1@gmail.com","gender": "MALE"},"appointment": {"dateTime": "2016-05-18T16:00:00Z","appointmentAddress": "OX495NU",            "realEstateAddress": "CM27PJ"} } ``` |
+| Get All Appointments   | GET    | --------------------------- | ------------ |
+| Get Single Appointment | GET    | --------------------------- | ------------ |
+| Get User Appointment   | GET    | --------------------------- | ------------ |
+| Update Appointment     | PUT    | --------------------------- | ------------ |
+| Delete Appointment     | DEL    | --------------------------- | ------------ |
+
