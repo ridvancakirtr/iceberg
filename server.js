@@ -40,6 +40,10 @@ const server = app.listen(PORT, () => {
     console.log(`Success app listening at http://localhost:${PORT}`.green.bold)
 })
 
+app.get('/', function(req, res) {
+    res.send("<b>ICERBERG API RUNNING</b>");
+});
+
 process.on('unhandledRejection', (reason, promise) => {
     console.log('Connection Error Reason:'.red.bold, reason.message);
     server.close(() => {
